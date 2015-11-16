@@ -1,0 +1,35 @@
+<div id="teaser">
+<div id="discteaser">
+   <blockquote>
+   <p>
+   <a href="{{Discourse.SiteSettings.hometeaser_link}}">
+   {{Discourse.SiteSettings.hometeaser_zitat}}
+   </a>
+   </p>
+   </blockquote>
+<p>
+<div id="teaserwrapper">
+<div id="teaserbild">
+<a href="/users/{{Discourse.SiteSettings.hometeaser_username}}">
+<img src="/user_avatar/www.nensch.de/{{Discourse.SiteSettings.hometeaser_username}}/80/17_1.png" width="80" height="80">
+</a></div>
+<div id="unterzeile">
+<cite><a href="/users/{{Discourse.SiteSettings.hometeaser_username}}">{{Discourse.SiteSettings.hometeaser_username}}</a></cite> 
+in <a href="{{Discourse.SiteSettings.hometeaser_beitragslink}}" class="superbeitrag">{{Discourse.SiteSettings.hometeaser_beitragsname}}</a>
+</div>
+</div>
+</p>
+</div>
+<div id="signteaser">
+{{#if currentUser}}
+ <div id="teaserhl"><blockquote><p>HAUSMITTEILUnG</p></blockquote></div>
+ <div id="teaserdesc">Bei Nensch gibt es klare Regeln, bitte nimm dir die Zeit und lies die Regeln:</div>
+<div id="ctb"><a class="cta" href="/t/faq-guidelines/5" title="Das ist der Titel">Jetzt Regeln lesen</a></div>
+{{else}}
+ <div id="teaserhl"><blockquote><p>NENSCH IST WIEDER DA!</p></blockquote></div>
+<div id="teaserdesc">Vernünftig diskutieren, gut unterhalten und zwar über alles</div>
+<div id="ctb"><a class="waves-effect cta" href="http://www.nensch.de/t/gute-unterhaltung/8">Mehr erfahren</a></div>
+<a class="cta" href="/" title="Das ist der Titel">Jetzt mitmachen</a>
+{{/if}}
+</div>
+</div>

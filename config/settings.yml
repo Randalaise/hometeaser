@@ -1,0 +1,19 @@
+plugins:
+  hometeaser_enabled:
+    default: true
+    client: true
+  hometeaser_link:
+    default: ''
+    client: true
+  hometeaser_zitat:
+    default: ''
+    client: true
+  hometeaser_username:
+    default: ''
+    client: true
+  hometeaser_beitragsname:
+    default: ''
+    client: true
+  hometeaser_beitragslink:
+    default: ''
+    client: true         

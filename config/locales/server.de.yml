@@ -1,0 +1,9 @@
+de:
+  site_settings:
+    hometeaser_enabled: "Soll der Hometeaser aktiv sein?"
+    hometeaser_link: "Link zum Post (ohne http://www.nensch.de)"
+    hometeaser_zitat: "Text des Zitats"
+    hometeaser_username: "Username"
+    hometeaser_beitragsname: "Names des Threads"
+    hometeaser_beitragslink: "Link zum Beitrag (ohne http://www.nensch.de)"
+
